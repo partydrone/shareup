@@ -4,4 +4,5 @@ class User < ActiveRecord::Base
          :omniauthable
 
   has_many :authorizations, dependent: :destroy
+  has_many :shares, foreign_key: 'from_user_id'
 end

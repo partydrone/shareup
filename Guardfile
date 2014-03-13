@@ -1,4 +1,4 @@
-guard :minitest, all_on_start: false do
+guard :minitest, all_on_start: false, spring: 'rake test' do
   # Rails 4
   watch(%r{^app/(.+)\.rb$})                               { |m| "test/#{m[1]}_test.rb" }
   watch(%r{^app/controllers/application_controller\.rb$}) { 'test/controllers' }
