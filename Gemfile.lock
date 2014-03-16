@@ -180,7 +180,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  angularjs-rails (>= 1.2.0.rc1)
+  angularjs-rails
   bootstrap-sass
   coffee-rails (~> 4.0.0)
   database_cleaner
