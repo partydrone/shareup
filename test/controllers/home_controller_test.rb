@@ -11,6 +11,7 @@ class HomeControllerTest < ActionController::TestCase
   end
 
   test "should get dashboard" do
+    sign_in @user
     get :dashboard
     assert_response :success
     assert_template layout: 'layouts/angular'
