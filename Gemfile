@@ -2,8 +2,7 @@ source 'https://rubygems.org'
 
 gem 'rails', '4.1.0.rc1'
 
-gem 'angularjs-rails'
-gem 'bootstrap-sass'
+gem 'angularjs-rails', '>= 1.2.0.rc1'
 gem 'coffee-rails', '~> 4.0.0'
 gem 'devise'
 gem 'jbuilder', '~> 2.0'
@@ -16,6 +15,7 @@ gem 'sass-rails', '~> 4.0.1'
 # gem 'turbolinks'
 gem 'uglifier', '>= 1.3.0'
 gem 'uuidtools'
+gem 'zurb-foundation'
 
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
