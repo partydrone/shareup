@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '4.1.0.rc1'
+gem 'rails', '4.1.0.rc2'
 
 gem 'coffee-rails', '~> 4.0.0'
 gem 'devise'
