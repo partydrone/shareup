@@ -19,7 +19,8 @@ angular.module('myApp.services', ['ngResource'])
   return service;
 })
 .factory('Share', function($resource) {
-
+  var Share = $resource('/api/shares/:id.json', {id: '@id'}, {});
+  return Share;
 })
 .factory('SessionService', function($http, $q) {
   var service = {
